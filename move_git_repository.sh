@@ -27,7 +27,7 @@ fi
 git clone --mirror ${src_rui}
 cd ${src_dir}
 ### git-lfsのファイルをすべて取得
-git lgs fetch --all
+git lfs fetch --all
 ### gitリポジトリをmirrorオプション付きでpush
 git push --mirror ${dst_uri}
 ### git-lfsのファイルをすべてpush
